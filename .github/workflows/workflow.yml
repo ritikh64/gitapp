@@ -14,7 +14,7 @@ jobs:
       runs-on: ubuntu-latest
       steps:
       - name: Azure Pipelines Action
-        uses: 
+        uses: Azure/pipelines@v1
         with:
           azure-devops-project-url: https://dev.azure.com/saxenaritikh64/Fabrikam%20Test
           azure-pipeline-name: 'ritikh64.gitapp'
